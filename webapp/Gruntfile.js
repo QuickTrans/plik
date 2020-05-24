@@ -41,11 +41,7 @@ module.exports = function (grunt) {
             },
             css_vendors: {
                 src: [
-                    'bower_components/bootstrap/dist/css/bootstrap.css',
-                    'bower_components/bootstrap-flat/css/bootstrap-flat.css',
-                    'bower_components/bootstrap-flat/css/bootstrap-flat-extras.css',
-                    'bower_components/fontawesome/css/font-awesome.css',
-                    'css/water_drop.css'
+                    'css/vendor.css',
                 ],
                 dest: 'dist/css/vendor.css'
             }
